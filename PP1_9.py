@@ -19,7 +19,7 @@ def q3():
 
 def q4(): 
   word = input("Input a word: ")
-  print(len(word))
+  print(len(word[:2]))
         
 def q5(): 
   longword = input("Input a word: ")
