@@ -18,11 +18,8 @@ def q3():
 
 
 def q4(): 
-  letterwitho = input("Input a word: ")
-  alotofsplicedletters = word[:1] + word[1:2] + word[2:3] + word[3:4] + word[4:5] + word[5:6] + word[6:7]
-  therealletterwitho = alotofsplicedletters.index('o')
-  print(therealletterwitho)
-
+  word = input("Input a word: ") 
+  print(len(word)
 def q5(): 
   longword = input("Input a word: ")
   print(len(longword))
