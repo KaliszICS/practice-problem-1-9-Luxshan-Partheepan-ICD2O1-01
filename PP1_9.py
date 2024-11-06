@@ -14,13 +14,14 @@ def q2():
 
 def q3(): 
   words = input("Input a word that is at least 5 letters long: ")
-  print(word5[1:4])
+  print(words[1:4])
 
 
 def q4(): 
   letterwitho = input("Input a word: ")
-  print(letterwitho.find('o')
-  
+  alotofsplicedletters = word[:1] + word[1:2] + word[2:3] + word[3:4] + word[4:5] + word[5:6] + word[6:7]
+  therealletterwitho = alotofsplicedletters.index('o')
+  print(therealletterwitho)
 
 def q5(): 
   longword = input("Input a word: ")
